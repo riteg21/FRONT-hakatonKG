@@ -1,2 +1,2 @@
-# login-hakatonKG
+# evm-sharding-wallet
 Created with CodeSandbox
