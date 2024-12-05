@@ -21,25 +21,25 @@ export default function App() {
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
-              <h1>Добро пожаловать!</h1>
-              <p>Введите свои персональные данные</p>
+              <h1>Welcome Back!</h1>
+
               <button
                 className="ghost"
                 id="signIn"
                 onClick={() => handleOnClick("signIn")}
               >
-                Войти
+                Sign In
               </button>
             </div>
             <div className="overlay-panel overlay-right">
-              <h1>Привет, Друг!</h1>
-              <p></p>
+              <h1>Hello, Friend!</h1>
+
               <button
                 className="ghost "
                 id="signUp"
                 onClick={() => handleOnClick("signUp")}
               >
-                Зарегистрироваться
+                Sign Up
               </button>
             </div>
           </div>
@@ -48,3 +48,4 @@ export default function App() {
     </div>
   );
 }
+
