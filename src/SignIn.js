@@ -29,9 +29,8 @@ function SignInForm() {
   return (
     <div className="form-container sign-in-container">
       <form onSubmit={handleOnSubmit}>
-        <h1>Войти</h1>
+        <h1>Sign in</h1>
 
-        <span>или используйте свои личные данные </span>
         <input
           type="email"
           placeholder="Email"
@@ -54,3 +53,4 @@ function SignInForm() {
 }
 
 export default SignInForm;
+
